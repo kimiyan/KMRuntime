@@ -1,6 +1,7 @@
 # KMRuntime
 
-##'show class's properties,ivars,methods and protocols with runtime.'
+##show class's properties,ivars,methods and protocols with runtime.
+
 
 ##Installation
     #import "NSObject+runtime.h"

@@ -26,10 +26,10 @@
 //    NSArray *ivarList= [UIView km_ivarsList];
     
     //返回类方法的成员变量以及明细
-//    NSArray *method = [UIView km_methodList];
+//    NSArray *methodList = [UIView km_methodList];
     
     //返回类的协议数量以及明细
-//    NSArray *protocol = [UIView km_protocolList];
+//    NSArray *protocolList = [UIView km_protocolList];
    
     //传入一个字典,设置这个类对应的属性对应的对象
 //    [self setGirl];

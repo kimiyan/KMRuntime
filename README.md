@@ -1,18 +1,20 @@
 # KMRuntime
 
+####show class's properties,ivars,methods and protocols with runtime.
+
 ##Installation
     #import "NSObject+runtime.h"
     
 ##Usage
-#####get Class's properties
+####get Class's properties
     NSArray *PropertyList = [UIView km_propertiesList];
-######get Class's ivars
+#####get Class's ivars
     NSArray *ivarList= [UIView km_ivarsList];
-######get Class's methods
+#####get Class's methods
     NSArray *methodList = [UIView km_methodList];
-######get Class's protocols
+#####get Class's protocols
     NSArray *protocolList = [UIView km_protocolList];
-###### give a dictionary return this class relative target
+##### give a dictionary return this class relative target
     NSDictionary *dict = @{@"name" : @"hyper",
                            @"age" : @25,
                            @"height" : @1.78,
@@ -20,7 +22,7 @@
                            };
     Girl *girl = [Girl km_objWithDict:dict];
     NSLog(@"%@",girl);
-
+()[https://github.com/kimiyan/KMRuntime/blob/master/Demo/KMRuntimeDemo/demo.png]
 
 
    

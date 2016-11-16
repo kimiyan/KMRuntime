@@ -4,7 +4,7 @@
     #import "NSObject+runtime.h"
     
 ##Usage
-######get Class's properties
+#####get Class's properties
     NSArray *PropertyList = [UIView km_propertiesList];
 ######get Class's ivars
     NSArray *ivarList= [UIView km_ivarsList];

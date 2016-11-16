@@ -1,6 +1,6 @@
 # KMRuntime
 
-####show class's properties,ivars,methods and protocols with runtime.
+##'show class's properties,ivars,methods and protocols with runtime.'
 
 ##Installation
     #import "NSObject+runtime.h"
@@ -22,7 +22,7 @@
                            };
     Girl *girl = [Girl km_objWithDict:dict];
     NSLog(@"%@",girl);
-()[https://github.com/kimiyan/KMRuntime/blob/master/Demo/KMRuntimeDemo/demo.png]
+![](https://github.com/kimiyan/KMRuntime/blob/master/Demo/KMRuntimeDemo/demo.png)
 
 
    
